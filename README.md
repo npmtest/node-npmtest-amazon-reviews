@@ -1,4 +1,7 @@
-# test coverage for  [amazon-reviews (v0.0.4)](https://github.com/xissy/node-amazon-reviews)  [![npm package](https://img.shields.io/npm/v/npmtest-amazon-reviews.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-amazon-reviews) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-amazon-reviews.svg)](https://travis-ci.org/npmtest/node-npmtest-amazon-reviews)
+# npmtest-amazon-reviews
+
+#### basic test coverage for  [amazon-reviews (v0.0.4)](https://github.com/xissy/node-amazon-reviews)  [![npm package](https://img.shields.io/npm/v/npmtest-amazon-reviews.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-amazon-reviews) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-amazon-reviews.svg)](https://travis-ci.org/npmtest/node-npmtest-amazon-reviews)
+
 #### A node.js module to crawl product reviews from Amazon.
 
 [![NPM](https://nodei.co/npm/amazon-reviews.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/amazon-reviews)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-amazon-reviews/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-amazon-reviews/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-amazon-reviews/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-amazon-reviews/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-amazon-reviews/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-amazon-reviews/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-amazon-reviews/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-amazon-reviews/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-amazon-reviews/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-amazon-reviews/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-amazon-reviews/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-amazon-reviews/build/coverage.html/index.html)
 
@@ -79,7 +82,8 @@
     "scripts": {
         "test": "mocha --compilers coffee:coffee-script --require coffee-script/register --globals lw --recursive ./test -t 50000"
     },
-    "version": "0.0.4"
+    "version": "0.0.4",
+    "bin": {}
 }
 ```
 
